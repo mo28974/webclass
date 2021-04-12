@@ -1,0 +1,118 @@
+@charset "utf-8";
+.pagebox {
+    margin-left: 10%;
+    width: 80%;
+}
+.pagebox header {
+    background-color: #c3000;
+    color: #efeeee;
+    font-size: 72pt;
+    font-family: lemon;
+    padding-left: 10pxpx;
+    font-style: normal;
+    font-weight: 400;
+}
+.pagebox footer {
+    color: #efeeee;
+    align-content: center;
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+nav li {
+    float: left;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+
+body {
+    background-color: efeeee;
+
+}
+.article1 {
+    color: #585858;
+    text-align: center;
+    font-size: 18pt;
+    font-family: helvetica;
+}
+.article2 {
+    color: #585858;
+    float: left;
+    font-family: helvetica;
+    width: 66%;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #585858;
+    color: black;
+}
+.active {
+    background-color: #472836;
+    color: white;
+
+
+
+
+
+
+@media ( max-width : 767px ){
+.pagebox {
+    margin-left: 3%;
+    width: 94%;
+    font-weight: bold;
+}
+header {
+    font-size: 24pt;
+    text-align: center;
+}
+.article1 {
+    font-weight: bold;
+}
+.article2 {
+    float: none;
+    width: 100%;
+}
+aside {
+    float: none;
+    width: 100%;
+}
+.pagebox header {
+    font-family: lemon;
+    font-style: normal;
+    font-weight: 300
+		;
+}
+aside p {
+    text-align: left;
+}
+footer {
+    font-size: 12pt;
+}
+nav li {
+    width: 100%;
+    border-bottom: 1px solid #585858;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #585858;
+    color: black;
+}
+.active {
+    background-color: #472836;
+    color: white;
+
+
+
+
+
+}
